@@ -74,4 +74,5 @@ int isQueueEmpty(int *front, int *rear);
 bst_t *array_to_bst(int *array, size_t size);
 
 int binary_tree_is_avl(const binary_tree_t *tree);
+avl_t *r_insert_node(avl_t **tree, avl_t *parent, avl_t **new, int nval);
 #endif
