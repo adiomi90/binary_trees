@@ -8,6 +8,12 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+#include <math.h>
+#include <limits.h>
+
 
 /**
  * struct binary_tree_s - Binary tree node
